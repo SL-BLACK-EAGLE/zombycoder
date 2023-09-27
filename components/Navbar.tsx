@@ -24,16 +24,20 @@ const Navbar = () => {
                 />
                 <ul className="flex-center gap-x-3 max-md:hidden md:gap-x-10">
                     <li className="body-text text-gradient_blue-purple !font-bold">
-                        <Link href='https://jsmastery.pro/next13'
-                              target="_blank">
-                            Next.js 13.5 Course
-                        </Link>
-                    </li><li className="body-text !font-normal">
-                        <Link href='https://dev.athenaholdingsllc.com'
-                              target="_blank">
-                            Next.js 13.5 Course
+                        <Link href='/'>
+                            Home
                         </Link>
                     </li>
+                    <li className="body-text text-gradient_blue-purple !font-bold">
+                        <Link href='/about'>
+                            About us
+                        </Link>
+                    </li><li className="body-text text-gradient_blue-purple !font-bold">
+                        <Link href='/contact'>
+                            Contact us
+                        </Link>
+                    </li>
+
                 </ul>
             </div>
         </nav>
